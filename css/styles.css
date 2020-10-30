@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* GLOBAL */
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    height: calc(100vh - 16px);
+}
+
+#outer {
+    max-width: 992px;
+    padding: 3%;
+    margin: auto;
+}
+
+main {
+    padding: 3%;
+    margin: auto;
+    width: 40%;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    box-shadow: khaki 0 0 2px;
+}
+
+main span {
+    display: block;
+    background-image: url(../images/dc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    height: 52px;
+    width: 180px;
+}
+
+hgroup, h3, a {
+    color: #414f57;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+a {
+    margin: auto;
+    display: block;
+    padding-top: 1.5%;
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        width: 90%;
+    }
+    main span {
+        height: initial;
+        padding: 3.205% 0;
+        width: 22.188%;
+    }
+}
